@@ -1,4 +1,4 @@
-# os-webrtc-janus-install-Linux
+# os-webrtc-janus-install-Linux (Noch nicht ganz fertig)
 OpenSim Installation Server und OpenSim Addon
 
 Janus Server Starten.
