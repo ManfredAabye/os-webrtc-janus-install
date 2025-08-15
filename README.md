@@ -1,5 +1,11 @@
-# os-webrtc-janus-install
+# os-webrtc-janus-install-Linux
 OpenSim Installation Server und OpenSim Addon
+
+Janus Server Starten.
+
+```bash
+bash janust.sh restart
+```
 
 
 Ich beschreibe die Konfiguration in zwei Szenarien:
