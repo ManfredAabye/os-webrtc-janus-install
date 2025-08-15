@@ -10,7 +10,9 @@ bash janust.sh restart
 
 ## Ich beschreibe die Konfiguration in zwei Szenarien:
 
-- 1. Konfiguration als Grid mit mehreren OpenSim Instanzen
+---
+
+1. Konfiguration als Grid mit mehreren OpenSim Instanzen
 
 Grid-Konfiguration bedeutet, mehrere OpenSimulator-Instanzen (Regionen) laufen in einer vernetzten Umgebung, oft mit zentralen Diensten wie Robust (zentrale Verwaltung der Nutzer, Inventare, etc.).
 
@@ -38,7 +40,9 @@ Zusätzliche Hinweise:
     Stelle sicher, dass alle Instanzen den gleichen Kommunikationskanal zum Janus-Server haben (Netzwerkfreigaben, Firewall).
     Es kann notwendig sein, den Janus-Server so zu konfigurieren, dass er Sessions von mehreren Regionen/Instanzen verwalten kann.
 
-- 2. Konfiguration nur für OpenSim (Standalone-Modus)
+---
+
+2. Konfiguration nur für OpenSim (Standalone-Modus)
 
 Im Standalone-Modus läuft OpenSim als einzelne Instanz, oft lokal oder für kleine Projekte ohne Grid-Struktur.
 
@@ -65,6 +69,8 @@ Zusätzliche Hinweise:
 
     Die Kommunikation ist einfacher, da alles auf einer Maschine oder in einer Instanz läuft.
     Es sind keine speziellen Netzwerk-Freigaben oder zentralen Dienste notwendig.
+
+---
 
 ## Meldungen
 
