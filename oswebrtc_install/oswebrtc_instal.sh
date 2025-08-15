@@ -7,7 +7,7 @@ function webRTCinstall() {
 
     # Überprüfe, ob das Verzeichnis existiert
     if [ ! -d "os-webrtc-janus" ]; then
-        git clone https://github.com/ManfredAabye/os-webrtc-janus.git os-webrtc-janus
+        git clone https://github.com/Misterblue/os-webrtc-janus.git os-webrtc-janus
     else
         echo "Das Repository 'os-webrtc-janus' ist bereits vorhanden."
     fi
