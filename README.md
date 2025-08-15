@@ -64,3 +64,22 @@ Zusätzliche Hinweise:
 
     Die Kommunikation ist einfacher, da alles auf einer Maschine oder in einer Instanz läuft.
     Es sind keine speziellen Netzwerk-Freigaben oder zentralen Dienste notwendig.
+
+## Meldungen
+
+    INFO  (1) - WebRtcVoice.WebRtcVoiceServerConnector [WEBRTC VOICE SERVER CONNECTOR] WebRtcVoiceServerConnector enabled
+    DEBUG (1) - WebRtcVoice.WebRtcVoiceServerConnector [WEBRTC VOICE SERVER CONNECTOR] loading WebRtcVoiceServiceModule.dll:WebRtcVoiceServiceModule
+    DEBUG (1) - WebRtcVoice.WebRtcVoiceServiceModule [WEBRTC VOICE SERVICE MODULE] Loading SpatialVoiceService from WebRtcJanusService.dll:WebRtcJanusService
+    DEBUG (1) - WebRtcVoice.WebRtcJanusService [JANUS WEBRTC SERVICE] WebRtcJanusService version 0.0.0.0
+    DEBUG (1) - WebRtcVoice.WebRtcJanusService [JANUS WEBRTC SERVICE] Enabled
+    DEBUG (1) - WebRtcVoice.WebRtcJanusService [JANUS WEBRTC SERVICE] StartConnectionToJanus
+    DEBUG (1) - WebRtcVoice.WebRtcVoiceServiceModule [WEBRTC VOICE SERVICE MODULE] Loading NonSpatialVoiceService from WebRtcJanusService.dll:WebRtcJanusService
+    DEBUG (1) - WebRtcVoice.WebRtcVoiceServiceModule [WEBRTC VOICE SERVICE MODULE] NonSpatialVoiceService is same as SpatialVoiceService
+    INFO  (1) - WebRtcVoice.WebRtcVoiceServiceModule [WEBRTC VOICE SERVICE MODULE] WebRtcVoiceService enabled
+    DEBUG (.NET TP Worker) - WebRtcVoice.JanusViewerSession [JANUS VIEWER SESSION] JanusViewerSession created 3a5d67f6-1bde-4e0b-8e7e-951b76937123
+    DEBUG (.NET TP Worker) - WebRtcVoice.JanusSession [JANUS SESSION] JanusSession constructor
+    DEBUG (.NET TP Worker) - WebRtcVoice.JanusSession [JANUS SESSION] CreateSession. Created. ID=8244229047451123, URL=http://myweb.de:8088/janus/8244229047451123
+    DEBUG (.NET TP Worker) - WebRtcVoice.JanusSession [JANUS SESSION] EventLongPoll
+    DEBUG (.NET TP Worker) - WebRtcVoice.WebRtcJanusService [JANUS WEBRTC SERVICE] JanusSession created
+    DEBUG (.NET TP Worker) - WebRtcVoice.JanusPlugin [JANUS PLUGIN] Activate. Plugin attached. ID=2849151892044123, URL=http://myweb.de:8088/janus/8244229047451261/2849151892044123
+    DEBUG (.NET TP Worker) - WebRtcVoice.WebRtcJanusService [JANUS WEBRTC SERVICE] AudioBridgePluginHandle created
